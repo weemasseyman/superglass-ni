@@ -6,7 +6,7 @@ import robotsTxt from 'astro-robots-txt';
 
 export default defineConfig({
   site: 'https://weemasseyman.github.io',
-  base: '/superglass-ni',
+  base: '/superglass-ni/',
   output: 'static',
 
   integrations: [sitemap(), robotsTxt()],
